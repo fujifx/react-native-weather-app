@@ -9,13 +9,10 @@ import WeatherInfoScreen from "./app/screens/WeatherInfoScreen";
 import UnitPickerComponent from "./app/screens/UnitPickerComponent";
 import ReloadIconComponent from "./app/screens/ReloadIconComponent";
 import WeatherDetailsComponent from "./app/screens/WeatherDetailsComponent";
-// import { WEATHER_API_KEY } from "react-native-dotenv";
-// import { BASE_WEATHER_URL, WEATHER_API_KEY } from "babel-plugin-dotenv-import";
-// import { BASE_WEATHER_URL, WEATHER_API_KEY } from "react-native-dotenv";
+
 import { API_KEY } from "react-native-dotenv";
 
 const BASE_WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather?";
-// const WEATHER_API_KEY = "fe0bed1e03e011338e52aa46f29135b0";
 
 export default function App() {
   const [errorMessage, setErrorMessage] = useState(null);
